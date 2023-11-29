@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #131324;
+    height: 100vh;
+    gap: 3rem;
+    width: 100wh;
+}
+
+h1 {
+    color: white;
+}
+
+.avatars {
+    display: flex;
+    gap: 2rem;
+}
+
+.set-avatar {
+    border: 0.4rem solid transparent;
+    padding: 0.4rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+img {
+    height: 5rem;
+    cursor: pointer;
+}
+
+.avatars .selected0 {
+    border: 2px solid #4e0eff;
+}
+
+.avatars .selected1 {
+    border: 2px solid #4e0eff;
+}
+
+.avatars .selected2 {
+    border: 2px solid #4e0eff;
+}
+
+.avatars .selected3 {
+    border: 2px solid #4e0eff;
+}
+
+button {
+    width: auto;
+}
+
+.loader {
+    max-inline-size: 100%;
+}

@@ -1,0 +1,18 @@
+.userWelcomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.userWelcomeContainer img {
+    height: 20rem;
+}
+
+.userWelcomeContainer span {
+    color: #4e00ff;
+}
+/* .Logout{
+width: 200px;
+} */
